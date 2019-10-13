@@ -1,0 +1,52 @@
+{
+  "name": "apigee-js-sdk",
+  "version": "0.0.1",
+  "description": "Apigee Javascript SDK",
+  "main": "./dist/apigee-js-sdk.js",
+  "author": "Niraj Palecha",
+  "files": [
+    "dist/bynder-js-sdk.js"
+  ],
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp babel",
+    "`prepare`": "gulp test"
+  },
+  "eslintConfig": {
+    "extends": "plugin:unicorn/recommended"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-transform-async-to-generator": "^7.5.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.5.5",
+    "core-js": "^3.2.1",
+    "del": "^5.1.0",
+    "dotenv": "^8.1.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-unicorn": "^12.0.2",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "6.0.0",
+    "gulp-jest": "^4.0.3",
+    "gulp-jsdoc3": "2.0.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "dependencies": {
+    "axios": "0.19.0",
+    "axios-debug-log": "^0.6.2",
+    "debug": "^4.1.1",
+    "is-url": "1.2.4",
+    "qs": "^6.8.0"
+  },
+  "repository": "git@github.com:niraj8/apigee-js-sdk.git"
+}
